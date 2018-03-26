@@ -1,0 +1,17 @@
+Katrina Nemes
+knemes@bu.edu
+
+Problem Set 3 
+Problem 0: Reading and response
+
+
+I find the comparison to molecular computing in how "DNA is sometimes called the software of life"
+interesting. Developing "liquid computers" (i.e. DNA and RNA) to propogate certain signals has the potential 
+to help numerous people, killing malignant cells while leaving healthy cells intact.
+Of the homework that we've completed thus far, I'd say that nothing really comes close to the magnitude of the work
+mentioned in this article. However, we've completed assignemnts that are similar in a very simplified sense. 
+For example, developing programs and debugging them is essentially how molecular circuits are being developed. Additionally,
+we also use templates to complete our assignments. Similarly, Dr. Benenson says, "we build the template in the form of synthetic genes and the cell
+turns them into components." We develop templates, or they are provided, and use them as building blocks for our programs. 
+A concrete example of a template being used is PS 2 Prb 1. We were provided the program and asked to complete a set of tables
+to visualize the execution. Another example is in our most recent lab, task 2: debugging a recursive function.

@@ -1,0 +1,29 @@
+Katrina Nemes
+
+1.
+
+mystery(1, 7)
+-------------
+    a = 1
+    b = 7
+    myst_rest = mystery( 1 + 1, 7 - 2) = mystery(2, 5) = 8 
+    return 7 + 8 = 15
+
+    mystery(2, 5)
+    -----------------
+        a = 2
+        b = 5
+        myst_rest = mystery(2 + 1, 5 - 2) = mystery (3, 3) = 3
+        return 5 + 3 = 8
+
+    	mystery(3, 3)
+    	-----------------
+        	a = 3
+        	b = 3
+        	return 3
+
+2. mystery(1,7) returns 15
+
+3. There are 3 stack frames from the 3 recursive calls plus the global scobe frame. In total, there are 4 stack frames.
+
+4. Infinite recursion can result from inputs b < a. b would continuously decrease by 2 with each recursion, so the base case would never be reached. 

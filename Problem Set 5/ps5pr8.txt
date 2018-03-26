@@ -1,0 +1,35 @@
+# Katrina Nemes
+# knemes@bu.edu
+#
+# ps5pr8.txt (Problem Set 5, Problem 8)
+#
+# Computing a power by looping
+#
+# If you worked with a partner, put his or her contact info below:
+# partner's name: Jenna Zhu
+# partner's email: jennazhu@bu.edu
+#
+
+00   read r1	      # get number from user and store it in r1 
+01   read r2          # get number from user and store it in r2
+02   jeqzn r1 10      # if r1 == 0, jump to line 10
+03   jeqzn r2 10      # if r2 == 0, jump to line 10
+04   setn r3 1        # initialize r3 to store result
+05   addn r2 -1	      # r2 = r2 -1   
+06   mul r3 r3 r1     # r3 = r3 * r1
+07   jnezn r2 05      # if r2 != 0, jump to line 05
+08   write r3         # print r3
+09   halt
+10   setn r4 1        # initialize r4 with 1
+11   write r4         # print r4
+12   halt
+
+
+
+
+
+
+
+
+
+

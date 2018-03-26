@@ -1,0 +1,30 @@
+#
+# Katrina Nemes
+# knemes@bu.edu
+#
+# ps6pr4.txt (Problem Set 6, Problem 4)
+#
+# The Fibonacci sequence
+#
+
+00  read  r1        # take an input r1
+01  setn  r2 1      # initialize r2 to 1
+02  setn  r3 1      # initialize r3 to 1
+03  call  r14 06    # call the function in line 06
+04  halt
+05  nop
+06  write r2        # print r2
+07  write r3	    # print r3
+08  add r4 r2 r3    # r4 = r2 + r3
+09  addn r1 -2      # r1 = r1 - 2
+10  jgtz r1 13      # if r1 > 0, jump to line 13
+11  write r4        # print r4
+12  jumpr r14       # jump to function call
+13  add r5 r2 r3    # r5 = r2 + r3
+14  write r5 	    # print r5
+15  copy r2 r3	    # r2 = r3
+16  copy r3 r5      # r3 = r5
+17  addn r1 -1      # r1 = r1 -1
+18  add r4 r4 r5    # r4 = r4 + r5
+19  nop
+20  jumpn 10	    # jump to line 10

@@ -1,0 +1,17 @@
+Katrina Nemes
+knemes@bu.edu
+
+Problem Set 4
+Problem 0: Reading and Response
+
+
+In hindsight, I think the most preventable factor was "trying to stuff a 64-bit number into a 16-bit space."
+Not to mention, the calculation with the bug had no function other than the first 40 seconds of flight, 
+which made it easier to restart the system in case the countdown were to be put on hold. Given that the calculation 
+was unnecessary, a "special feature" for Ariane, the input of a 64-bit number into a 16-bit space should have been 
+an easy adjustment.
+
+I agree that software bugs don't fail in the same way that a mechanical system can fail. As mentioned in the article,
+software, which gets modified with each version, behaves more like an organism. It's based on human thinking in how it branches 
+out and interacts with the system. Because it is fundamentally different from a mechanical system, it will fail in a different sense 
+from a mechanical system. 

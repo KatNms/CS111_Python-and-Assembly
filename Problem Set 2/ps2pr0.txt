@@ -1,0 +1,4 @@
+Katrina Nemes
+
+The most interesting aspect of this article is how far AI has come in the past couple decades. Watson -- a question answering machine -- was able to perform encyclopedic recall, tackle convoluted statements, and strategic button pressing. In my opinion, Watson's technology could contribute to applications like Alexa. He also can interact intelligently with other people. This can be shown in his weighted scheme, where it can hit the buzzer in as little as 10 seconds when confident and longer when less confident.
+

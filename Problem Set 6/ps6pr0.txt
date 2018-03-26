@@ -1,0 +1,10 @@
+Katrina Nemes
+Problem Set 6 Problem 0: Reading and Response
+
+1. In light of the reading, I would argue that computational models, depending on how they are used, can either better society or hurt it. 
+They are helpful tools that can guide institutions to make better decisions and make better products. 
+For example, Powell wrote, that chemists use computer models "in the pharmaceutical industry develop better drugs by simulating the way they interact 
+with their target and the body." It is undeniable that these models have helped society progress. However, a number
+of models exist and choosing the one best fit for a specific institution is difficult. This can be seen with the model used
+by banks, which contributed to economic disaster. In conclusion, models are simply tools. Which one is used and how it is used will 
+determine its overall effect on society as a whole.

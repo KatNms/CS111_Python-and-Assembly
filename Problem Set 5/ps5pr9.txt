@@ -1,0 +1,31 @@
+# Katrina Nemes
+# knemes@bu.edu
+#
+# ps5pr9.txt (Problem Set 5, Problem 9)
+#
+# Calling a distance function twice
+#
+
+
+00   read r1          # get x0 from user and store in r1
+01   read r2          # get x1 from user and store in r2
+02   copy r3 r2	      # r3 = r2
+03   call r14 15      # call distance function for x1 - x0 at line 15
+04   copy r9 r12      # r9 = r12 (copy distance)
+05   read r2          # get x2 from user and store in r2
+06   copy r4 r2       # r4 = r2
+07   call r14 15      # call to distance function for x2 - x0 at line 15
+08   copy r5 r12      # r5 = r12 
+09   sub r10 r5 r9    # r10 = r5 - r9 
+10   jltzn r10 13     # if r10 < 0 jump to line 13
+11   write r3         # write r3
+12   halt
+13   write r4         # write r4
+14   halt
+15   copy r12 r2      # r12 = r2 (start of distance function)
+16   jltzn r2 19      # if r2 < 0 jump to line 19
+17   sub r12 r2 r1    # r12 = x1 - x0 or r12 = x2 - x0
+18   jumpr r14        # set program counter to r14
+19   setn r6 -1       # initialize register r6 = -1
+20   sub r12 r1 r2    # r12 = r1 - r2  
+21   jumpr r14        # set program counter to r14

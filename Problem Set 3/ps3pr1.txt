@@ -1,0 +1,112 @@
+Katrina Nemes
+knemes@bu.edu
+
+Problem Set 3
+Problem 1: Tracing list comprehensions and recursion
+
+1.
+
+  x  |  y
+-----------
+  5  |  4
+  5  |  8
+  15 |  8
+
+
+  x  |  y  |  lc
+------------------
+  4  |  -  |  -
+  4  |  0  |  [-1
+  4  |  1  |  [-1, 1
+  4  |  2  |  [-1, 1, 3
+  4  |  3  |  [-1, 1, 3, 5] 
+  5  |  -  |  -
+  5  |  0  |  [-1
+  5  |  1  |  [-1, 1
+  5  |  2  |  [-1, 1, 3
+  5  |  3  |  [-1, 1, 3, 5
+  5  |  4  |  [-1, 1, 3, 5, 7]
+
+output
+--------
+5 8
+15 8
+
+
+2.
+
+  vals
+------------------
+ [-2, 1, -5, 4]
+
+
+  x  |  scored_vals
+----------------------
+ -2  | [ [4, -2]
+  1  | [ [4, -2], [1, 1]
+ -5  | [ [4, -2], [1, 1], [25, -5]
+  4  | [ [4, -2], [1, 1], [25, -5], [16, 4] ]
+
+
+ bestpair | return value
+-------------------------
+ [25, -5] | -5
+
+
+3. 
+
+In general, mystery2(vals) takes a list of numbers and finds the number with 
+the highest squared value. To do this, it uses list comprehension followed by 
+the built in max function to look for the greatest value for each of the pairs.
+Then it selects the max squared value, and the value associated with it.
+
+
+4.
+
+
+mystery3('banana')
+-----------------
+    s = 'banana'
+    result_rest = mystery3('anana') = 'nna'
+    return 'nn' + s[0] = 'nnb'
+
+    mystery3('anana')
+    ------------------
+        s = 'anana'
+	result_rest = mystery3('nana') = 'nn'
+	return'nn' 
+	
+	mystery3('nana')
+	-----------------
+	    s = 'nana'
+	    return_rest = mystery3('ana') = 'n'
+	    return 'n' + s[0] = 'nn'
+
+	    mystery3('ana')
+	    --------------
+		s = 'ana'
+		return_rest = mystery3('na') = 'n'
+		return 'n'
+
+		mystery3('na')
+		--------------
+		   s = 'na'
+		   return_rest = mystery3('a') = ''
+		   return '' + s[0] = 'n'
+
+		   mystery3('a')
+		   --------------
+			s = 'a'
+			return ''
+
+
+5. 
+
+the final result of mystery3('banana') is 'nnb'
+
+
+
+
+
+
+

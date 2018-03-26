@@ -1,0 +1,44 @@
+Katrina Nemes
+Problem Set 6 Problem 1: Practicing function calls and variable scope
+
+global variables (ones that belong to the global scope)
+  a  |  b  |  c  
+-----------------
+  3  |  5  |  2  
+  3  |  15 |  2
+
+foo's local variables
+  a  |  b  |  c  
+-----------------
+  2  |  3  |  5
+  6  |  3  |  15
+  19 |  3  |  15  
+  
+  
+
+bar's local variables
+  a  |  b  |  c
+-----------------
+  15 |  -  |  6
+  15 |  9  |  6
+  15 | 19  |  6   
+  
+
+mystery's local variables
+  a  |  c  
+-----------
+  -  |  15
+  18 |  15
+  9  |  15    
+  -  |  6
+  9  |  6
+  10 |  6    
+  
+
+output (the lines printed by the program)
+------
+3 5 2
+foo 6 3 15
+bar 15 9 6
+foo 19 3 15
+3 15 2

@@ -1,0 +1,25 @@
+#I partnered with Jenna Zhu
+#jennazhu@bu.edu
+
+#facing north
+0 xE** -> N 0 #given in lecture notes
+0 *x** -> E 1 #given in lecture notes
+0 NE** -> X 3 #change state to check for west availability
+
+#facing east
+1 *x*S -> E 1
+1 ***x -> S 2
+1 NE*S -> X 3 #check for west opening
+1 xE*S -> X 0 #check for north opening
+
+#facing south
+2 **Wx -> S 2
+2 **x* -> W 3
+2 **WS -> X 0 #check for north opening
+
+#facing west
+3 N*x* -> W 3
+3 x*** -> N 0	
+3 N*W* -> X 1 #check for east opening
+
+

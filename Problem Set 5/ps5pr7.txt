@@ -1,0 +1,19 @@
+# Katrina Nemes
+# knemes@bu.edu
+#
+# ps5pr7.txt (Problem Set 5, Problem 7)
+#
+# Cubic countdown
+#
+
+
+00   read r1          # get # from user and store it in r1
+01   mul r2 r1 r1     # multiply r1 by r1 and store it in r2 to square the value
+02   mul r2 r2 r1     # multiply r1 by r2 and store it in r2 to get cubed value
+03   write r2         # print value of r2
+04   setn r3 1        # set r3 to 1
+05   sub r4 r2 r3     # subtract r2 by r3 and store it in r4
+06   write r4         # print r4
+07   sub r2 r2 r3     # subtract r2 by r3 and store it in r2
+08   jnezn r4 05      # if r4 != 0 jump to line 05
+09   halt

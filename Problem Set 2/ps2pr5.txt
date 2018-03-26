@@ -1,0 +1,99 @@
+Katrina Nemes
+knemes@bu.edu
+
+
+1.
+
+global variables (ones that belong to the global scope)
+  a  |  b
+-----------
+  3  |  2
+  8  |  2
+
+foo's local variables
+  a  |  b
+-----------
+  3  |  -
+  3  |  8 
+
+bar's local variables
+  a  |  b
+-----------
+  -  |  2
+  4  |  2
+  -  |  3
+  6  |  3
+  -  |  1
+  2  |  1
+
+
+output (the lines printed by the program)
+------
+3 2
+bar: 4 2
+3 2
+bar: 6 3
+bar: 2 1
+foo: 3 8
+8 2
+
+2.
+
+global variables (ones that belong to the global scope)
+  x  |  y  
+-----------
+  6  |  2  
+  6  |  1
+  6  |  1
+
+local variables (ones that belong to the mystery1 function)
+  x  |  y  |  lc
+-----------------
+  2  |  -  |  -  
+  2  |  0  |  [0, 
+  2  |  1  |  [0, 1]
+  6  |  -  |  -
+  6  |  0  |  [0,  
+  6  |  1  |  [0, 1,
+  6  |  2  |  [0, 1, 2,
+  6  |  3  |  [0, 1, 2, 0, 
+  6  |  4  |  [0, 1, 2, 0, 1
+  6  |  5  |  [0, 1, 2, 0, 1, 2]
+
+
+output (the lines printed by the program)
+------
+6 2
+6 1
+6 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

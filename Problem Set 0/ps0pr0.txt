@@ -1,0 +1,4 @@
+1. In terms of a spacial language difference, I have only experienced very basic barriers. My dad was once trying to explain how I was supposed to get to my dentist's office using cardinal reference points, and it didn't make sense because I have no idea where North is without a compass. As a result, he then explained using egocentric directions, and I got it.
+
+
+2. Although artificial lanugages have their own syntax/semantics, they are in many ways similar to natural languages. As a result, it is not unreasonable to say that artificial languages can impact human thought and vice versa. Artificial languages have the ability to shape human thought, such that they can impact how people organize their thoughts/logic. Languages, like python, can also change people's perspective, which in turn can change how they view their environment.

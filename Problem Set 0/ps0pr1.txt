@@ -1,0 +1,9 @@
+0 x*** -> N 0 #go North until border reached
+0 Nx** -> E 0 #turn East until border reached
+0 NE** -> X 1 #dont move, change state to 1
+
+1 **x* -> W 1 #go West until border
+1 **W* -> S 2 #this rule goes down to next level, with new state/conditions it only goes South by one square grid
+
+2 *x** -> E 2 #go East until border
+2 *E** -> S 1 #go back to state 1 and repeat
