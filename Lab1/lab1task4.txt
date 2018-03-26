@@ -1,0 +1,31 @@
+3. a) Picobot enters state 1 when it rule 0 no longer applies. The next rule is 0 ***S -> X 1
+
+b) If I continue to press step, Picobot uses this rule 1 **X* -> W 1 and travels West. It continues until it reaches the next block and applies 1 **W* -> X 1.
+
+c) It stops after 1 **W* -> X 1 is applied.
+
+d) This program tells the Picobot to move South until it reaches the Southern border, changes to state 1, then changes direction and moves West until the Western border is reached. From there, no other rules are applicable, so Picobot stops completely.
+
+4. The new rule is a repeat rule because this state was already handled in rule 3.
+
+0 ***x -> S 0
+0 ***S -> X 1
+1 **x* -> W 1
+1 **W* -> X 2
+2 x*W* -> N 2
+
+5. 
+
+0 ***x -> S 0
+0 ***S -> W 1
+1 **xS -> W 1
+1 xxWS -> N 2
+2 xxWx -> N 2
+2 NxWx -> E 3
+3 Nxxx -> E 3
+3 NExx -> S 0
+
+
+
+
+ 

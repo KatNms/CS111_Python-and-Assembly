@@ -1,0 +1,26 @@
+1. What type of statements are included in this program?
+Assignment and print statements
+
+2. In what order are the statements executed?
+The statements are executed sequentially starting from "course = 111" to the last print statement "print('that is approximately', weeks, 'weeks')"
+
+3. The variable course is incremented by 1, so it's reassigned to the value 112. The print statements displays "maybe you will take cs 112 next semester" on the screen.
+
+4. a) The difference is that weeks is a variable and 'weeks' is a string that gets printed out by the print statement.
+
+b) It prints 5 because it is integer division, so it disregards the fractional part of the integer, nor does it round up.
+
+c) We could use float division, /.
+
+5. Copy/paste code
+
+6. EOL error in scanning literal, resulting from syntax errors
+
+7. Changed lines to: 
+print()
+print('Go Terriers!')
+print('pi is approximately', (22 / 7))
+
+
+
+
